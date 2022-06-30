@@ -1,0 +1,24 @@
+{%for index in range(10)%}
+
+<div class="advance-search" style="margin-top:5px">
+  <div class="row">
+    <div class="CartContainer">
+      <div class="Cart-Items">
+        <div class="image-box">
+          <img src="../static/images/lyrics.png" style="height:50px" />
+        </div>
+        <div class="about">
+          <h1 class="title">{{ songs[index] }}</h1>
+          <h3 class="subtitle"></h3>
+        </div>
+        <div class="counter">
+        </div>
+        <div class="prices">
+          <div class="amount"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{%endfor%}
