@@ -31,13 +31,13 @@ The Music Recommendation System recommend users top 10 songs based on their pref
 
 
 # Data Visualizing:
-* In this part first analized the data by obserbing relation between the features of songs. like songs by genre, 
+* In this part first analized the data by obserbing relation between the features of songs, like songs by genre, 
   year, artist, popularity.
 * In next step visualized above observation of datas.
 
 # Data Vectorization:
 
-* To vectorization, selected ipmortant features and used cosile similarity to create a score or vector for each  song. 
+* To vectorization, selected ipmortant features and used cosine similarity to create a score or vector for each  song. 
 * Compared the score factor of all songs with the user given song, the app return top 10 most similar songs to user.
 
 
